@@ -1,49 +1,55 @@
-body{
+BODY {
     margin: 0px;
-    padding: 0px;
-    background-color: rgb(red, green, blue);
+    padding: 0PX;
+    background-color: rgb(212, 197, 197);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 
-#icon{
+#icon {
     width: 62px;
     height: 62px;
     padding-right: 10px;
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background-color: rgb(red, green, blue);
+    background-color: rgb(41, 19, 19);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-#links{
+#links {
     padding-right: 30px;
 }
 
-#noticias{
+#noticias {
+    display: flex;
     text-align: center;
-    justify-content: space space-around;
+    justify-content: space-around;
     padding: 6px;
+
 }
 
-.noticia{
+.noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    color: white;
 
-    background-color: whitesmoke;
-    border: 4px red;
-    border-radius: 35px;
+    color: black;
+
+    background-color: rgb(255, 243, 243);
+    border: 4px solid black;
+    border-radius: 15px;
+
 }
-.img_noticia{
+
+.img_noticia {
     width: 300px;
     height: 200px;
+    border: 4px;
+    border-radius: 15px;
 }
