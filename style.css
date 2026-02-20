@@ -14,7 +14,7 @@ BODY {
 }
 
 #navbar {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -31,7 +31,9 @@ BODY {
     display: flex;
     text-align: center;
     justify-content: space-around;
-    padding: 6px;
+    padding: px;
+    flex-wrap: wrap;
+   
 
 }
 
@@ -52,4 +54,5 @@ BODY {
     height: 200px;
     border: 4px;
     border-radius: 15px;
+    flex-wrap: nowrap;
 }
