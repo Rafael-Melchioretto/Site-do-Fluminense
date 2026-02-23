@@ -74,6 +74,11 @@ BODY {
     justify-content: space-around;
     
 }
+.escalacao{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
 
 #icon_jogador{
     width: 70px;
