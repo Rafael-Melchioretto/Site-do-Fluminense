@@ -74,3 +74,21 @@ BODY {
     justify-content: space-around;
     
 }
+
+#icon_jogador{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .jogador{
+    text-align: center;
+}
+
+#jogadores{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
